@@ -1,0 +1,29 @@
+buildPack: entando-maven-lib
+pipelineConfig:
+  env:
+    - name: PIPELINE_CODE
+      value: eb
+  pipelines:
+    pullRequest:
+      build:
+        replace: true
+        steps:
+          - sh: mvn verify
+            name: verify
+      postBuild:
+        replace: true
+        steps: []
+      promote:
+        replace: true
+        steps: []
+    release:
+      build:
+        replace: true
+        steps:
+          - sh: mvn deploy
+            name: mvn-deploy
+      promote:
+        replace: true
+        steps:
+          - sh: jx step changelog --version v\$(cat ../../VERSION)
+            name: changelog
