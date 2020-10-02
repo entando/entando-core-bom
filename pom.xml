@@ -146,6 +146,7 @@
                 <groupId>org.entando.entando.plugins</groupId>
                 <artifactId>entando-plugin-jpmail</artifactId>
                 <version>${entando-plugin-jpmail.version}</version>
+                <scope>test</scope>
                 <type>test-jar</type>
             </dependency>
             <!--jpversioning-->
