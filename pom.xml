@@ -39,7 +39,7 @@
         <entando-plugin-jpmail.version>6.3.0</entando-plugin-jpmail.version>
         <entando-plugin-jpversioning.version>6.2.13</entando-plugin-jpversioning.version>
         <entando-plugin-jpseo.version>6.3.0</entando-plugin-jpseo.version>
-        <entando-plugin-jpcontentscheduler.version>6.2.11</entando-plugin-jpcontentscheduler.version>
+        <entando-plugin-jpcontentscheduler.version>6.3.0</entando-plugin-jpcontentscheduler.version>
         <entando.keycloak.plugin.version>6.2.5</entando.keycloak.plugin.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
