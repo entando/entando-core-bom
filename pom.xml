@@ -48,13 +48,6 @@
     </properties>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.entando</groupId>
-                <artifactId>entando-core-parent</artifactId>
-                <version>6.2.14</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
             <!--engine-->
             <dependency>
                 <groupId>org.entando.entando</groupId>
