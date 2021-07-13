@@ -46,12 +46,11 @@ jobs:
           server-id: internal-nexus
           server-username: MAVEN_USERNAME
           server-password: MAVEN_PASSWORD
+        env:
+          MAVEN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
       - name: "Publish package"
         run: |
           ~/ppl-run mvn PUBLISH \
             --id "PUBLICATION" \
             --lcd "$REPO_FOLDER"
-        env:
-          MAVEN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
-
