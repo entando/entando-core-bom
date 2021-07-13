@@ -22,8 +22,6 @@ jobs:
       ENTANDO_OPT_MAVEN_REPO_DEVL: ${{ secrets.ENTANDO_OPT_MAVEN_REPO_DEVL }}
       ENTANDO_OPT_MAVEN_REPO_PROD: ${{ secrets.ENTANDO_OPT_MAVEN_REPO_PROD }}
       ENTANDO_BOT_TOKEN: ${{ secrets.ENTANDO_BOT_TOKEN }}
-      MAVEN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
-      MAVEN_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
     runs-on: ubuntu-latest
     steps:
       - name: "PR PIPELINE START"
@@ -46,10 +44,14 @@ jobs:
         with:
           java-version: 11
           server-id: internal-nexus
-          server-username: MAVEN_USERNAME
-          server-password: MAVEN_PASSWORD
+          server-username: NEXUS_USERNAME
+          server-password: NEXUS_PASSWORD
       - name: "Publish package"
+        env:
+          NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+          NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
         run: |
           ~/ppl-run mvn PUBLISH \
             --id "PUBLICATION" \
             --lcd "$REPO_FOLDER"
+  
