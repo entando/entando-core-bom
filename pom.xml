@@ -40,7 +40,7 @@
         <entando-plugin-jpversioning.version>6.4.0</entando-plugin-jpversioning.version>
         <entando-plugin-jpseo.version>6.4.1</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>6.4.0</entando-plugin-jpcontentscheduler.version>
-        <entando.keycloak.plugin.version>6.2.5</entando.keycloak.plugin.version>
+        <entando-keycloak-auth.version>6.2.5</entando-keycloak-auth.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>${github.organization}</sonar.organization>
@@ -185,7 +185,7 @@
             <dependency>
                 <groupId>org.entando.entando</groupId>
                 <artifactId>entando-keycloak-auth</artifactId>
-                <version>${entando.keycloak.plugin.version}</version>
+                <version>${entando-keycloak-auth.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
