@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>6.4.51</version>
+    <version>6.4.100</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
@@ -31,7 +31,7 @@
         </repository>
     </repositories>
     <properties>
-        <entando-engine.version>6.4.16</entando-engine.version>
+        <entando-engine.version>6.4.17</entando-engine.version>
         <entando-admin-console.version>6.4.5</entando-admin-console.version>
         <entando-portal-ui.version>6.4.0</entando-portal-ui.version>
         <entando-plugin-jacms.version>6.4.5</entando-plugin-jacms.version>
