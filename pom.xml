@@ -36,7 +36,7 @@
         <entando-portal-ui.version>6.4.4</entando-portal-ui.version>
         <entando-plugin-jacms.version>6.4.14</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.4.4</entando-plugin-jpmail.version>
-        <entando-plugin-jpversioning.version>6.4.7</entando-plugin-jpversioning.version>
+        <entando-plugin-jpversioning.version>6.4.8</entando-plugin-jpversioning.version>
         <entando-plugin-jpseo.version>6.4.8</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>6.4.6</entando-plugin-jpcontentscheduler.version>
         <entando-keycloak-auth.version>6.4.7</entando-keycloak-auth.version>
