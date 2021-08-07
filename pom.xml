@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>6.4.79</version>
+    <version>6.4.0-SNAPSHOT</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
@@ -32,7 +32,7 @@
     </repositories>
     <properties>
         <entando-engine.version>6.4.21</entando-engine.version>
-        <entando-admin-console.version>6.4.11</entando-admin-console.version>
+        <entando-admin-console.version>6.4.12</entando-admin-console.version>
         <entando-portal-ui.version>6.4.4</entando-portal-ui.version>
         <entando-plugin-jacms.version>6.4.14</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.4.3</entando-plugin-jpmail.version>
