@@ -38,7 +38,7 @@
         <entando-plugin-jpmail.version>7.0.0-ENG-3206-PR-38</entando-plugin-jpmail.version>
         <entando-plugin-jpversioning.version>7.0.0-ENG-3206-PR-37</entando-plugin-jpversioning.version>
         <entando-plugin-jpseo.version>7.0.0-ENG-3206-PR-64</entando-plugin-jpseo.version>
-        <entando-plugin-jpcontentscheduler.version>7.0.0-ENG-3206-PR-40</entando-plugin-jpcontentscheduler.version>
+        <entando-plugin-jpcontentscheduler.version>7.0.0-ENG-3212-PR-41</entando-plugin-jpcontentscheduler.version>
         <entando-keycloak-auth.version>7.0.0-ENG-3212-PR-64</entando-keycloak-auth.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
