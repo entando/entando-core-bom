@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
@@ -38,7 +37,7 @@
         <entando-plugin-jacms.version>6.3.19</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.3.6</entando-plugin-jpmail.version>
         <entando-plugin-jpversioning.version>6.3.5</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>6.3.9</entando-plugin-jpseo.version>
+        <entando-plugin-jpseo.version>6.3.10-ENG-3293-PR-70</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>6.3.5</entando-plugin-jpcontentscheduler.version>
         <entando.keycloak.plugin.version>6.2.5</entando.keycloak.plugin.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
