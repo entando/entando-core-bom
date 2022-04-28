@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>6.5.0</version>
+    <version>6.2.267</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
