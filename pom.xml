@@ -32,7 +32,7 @@
     </repositories>
     <properties>
         <entando-engine.version>6.5.1-ECS-221-PR-275</entando-engine.version>
-        <entando-admin-console.version>6.5.1-ECS-433-PR-150</entando-admin-console.version>
+        <entando-admin-console.version>6.5.1-ECS-435-PR-152</entando-admin-console.version>
         <entando-portal-ui.version>6.5.0-ECS-212-PR-55</entando-portal-ui.version>
         <entando-plugin-jacms.version>6.5.0-ECS-212-PR-176</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.5.0-ECS-212-PR-54</entando-plugin-jpmail.version>
