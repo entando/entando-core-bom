@@ -31,7 +31,7 @@
         </repository>
     </repositories>
     <properties>
-        <entando-engine.version>7.1.2-ECS-541-PR-323</entando-engine.version>
+        <entando-engine.version>7.1.2-ENG-4293-PR-319</entando-engine.version>
         <entando-admin-console.version>7.1.2-ENG-4282-PR-183</entando-admin-console.version>
         <entando-portal-ui.version>7.1.1-ENG-4181-PR-83</entando-portal-ui.version>
         <entando-plugin-jacms.version>7.1.2-ECS-503-PR-217</entando-plugin-jacms.version>
