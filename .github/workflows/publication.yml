@@ -54,7 +54,7 @@ jobs:
           java-version: 11
       #~ MAVEN CACHE
       - name: "Cache Maven packages"
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: ~/.m2
           key: ${{ runner.os }}-m2
@@ -62,7 +62,7 @@ jobs:
       #~ BUILD CACHE
       - name: "Cache Build Dir"
         id: build-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: "${{ env.LOCAL_CLONE_DIR }}/target/"
           key: ${{ runner.os }}-build-${{ env.BUILD_CACHE_KEY }}
