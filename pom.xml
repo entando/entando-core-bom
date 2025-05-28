@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>6.5.1</version>
+    <version>6.5.1-ENG-5542</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
@@ -32,12 +32,12 @@
     </repositories>
     <properties>
         <entando-engine.version>6.5.4</entando-engine.version>
-        <entando-admin-console.version>6.5.2-ENG-4806-PR-187</entando-admin-console.version>
-        <entando-portal-ui.version>6.5.3-ENG-4806-PR-88</entando-portal-ui.version>
-        <entando-plugin-jacms.version>6.5.1-ENG-4782-PR-230</entando-plugin-jacms.version>
-        <entando-plugin-jpmail.version>6.5.1-ENG-4806-PR-79</entando-plugin-jpmail.version>
-        <entando-plugin-jpversioning.version>6.5.1-ENG-4806-PR-76</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>6.5.2-ENG-4806-PR-122</entando-plugin-jpseo.version>
+        <entando-admin-console.version>6.5.2</entando-admin-console.version>
+        <entando-portal-ui.version>6.5.3</entando-portal-ui.version>
+        <entando-plugin-jacms.version>6.5.1</entando-plugin-jacms.version>
+        <entando-plugin-jpmail.version>6.5.1</entando-plugin-jpmail.version>
+        <entando-plugin-jpversioning.version>6.5.1</entando-plugin-jpversioning.version>
+        <entando-plugin-jpseo.version>6.5.3</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>6.5.0-ENG-4782-PR-77</entando-plugin-jpcontentscheduler.version>
         <entando.keycloak.plugin.version>6.2.5</entando.keycloak.plugin.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
