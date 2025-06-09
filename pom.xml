@@ -38,7 +38,7 @@
         <entando-plugin-jacms.version>6.5.1</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.5.1</entando-plugin-jpmail.version>
         <entando-plugin-jpversioning.version>6.5.1</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>6.5.3</entando-plugin-jpseo.version>
+        <entando-plugin-jpseo.version>6.5.3-ENG-5542-PR-128</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>6.5.0-ECS-611-PR-76</entando-plugin-jpcontentscheduler.version>
         <entando.keycloak.plugin.version>6.5.0</entando.keycloak.plugin.version>
 
