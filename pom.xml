@@ -37,11 +37,11 @@
         <entando-portal-ui.version>6.6.0-ESB-574-PR-90</entando-portal-ui.version>
         <entando-plugin-jacms.version>6.6.0-ESB-574-PR-239</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>6.6.0-ESB-574-PR-82</entando-plugin-jpmail.version>
-        <entando-plugin-jpversioning.version>6.5.1</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>6.5.3</entando-plugin-jpseo.version>
-        <entando-plugin-jpcontentscheduler.version>6.5.0</entando-plugin-jpcontentscheduler.version>
-        <entando-plugin-jpredis.version>6.5.1</entando-plugin-jpredis.version>
-        <entando.keycloak.plugin.version>6.6.0</entando.keycloak.plugin.version>
+        <entando-plugin-jpversioning.version>6.6.0-ESB-574-PR-78</entando-plugin-jpversioning.version>
+        <entando-plugin-jpseo.version>6.6.0-ESB-574-PR-130</entando-plugin-jpseo.version>
+        <entando-plugin-jpcontentscheduler.version>6.6.0-ESB-574-PR-79</entando-plugin-jpcontentscheduler.version>
+        <entando-plugin-jpredis.version>6.6.0-ESB-574-PR-64</entando-plugin-jpredis.version>
+        <entando.keycloak.plugin.version>6.6.1-ESB-574-PR-119</entando.keycloak.plugin.version>
         <!-- Others.. -->
         <sonar.projectKey>${github.organization}_${project.artifactId}</sonar.projectKey>
         <github.organization>entando-k8s-infrastructure</github.organization>
