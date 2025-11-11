@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>6.5.1</version>
+    <version>6.6.0</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
@@ -32,16 +32,16 @@
     </repositories>
     <properties>
         <!-- Dependencies -->
-        <entando-engine.version>6.5.4</entando-engine.version>
-        <entando-admin-console.version>6.6.0-ESB-574-PR-190</entando-admin-console.version>
-        <entando-portal-ui.version>6.6.0-ESB-574-PR-90</entando-portal-ui.version>
-        <entando-plugin-jacms.version>6.5.3-ENG-5559-PR-237</entando-plugin-jacms.version>
-        <entando-plugin-jpmail.version>6.5.1</entando-plugin-jpmail.version>
-        <entando-plugin-jpversioning.version>6.5.1</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>6.5.3-ENG-5542-PR-128</entando-plugin-jpseo.version>
-        <entando-plugin-jpcontentscheduler.version>6.5.0-ECS-611-PR-76</entando-plugin-jpcontentscheduler.version>
-        <entando.keycloak.plugin.version>6.5.0</entando.keycloak.plugin.version>
-
+        <entando-engine.version>6.6.1</entando-engine.version>
+        <entando-admin-console.version>6.6.0</entando-admin-console.version>
+        <entando-portal-ui.version>6.6.0</entando-portal-ui.version>
+        <entando-plugin-jacms.version>6.6.0</entando-plugin-jacms.version>
+        <entando-plugin-jpmail.version>6.6.0</entando-plugin-jpmail.version>
+        <entando-plugin-jpversioning.version>6.6.0</entando-plugin-jpversioning.version>
+        <entando-plugin-jpseo.version>6.6.0</entando-plugin-jpseo.version>
+        <entando-plugin-jpcontentscheduler.version>6.6.0</entando-plugin-jpcontentscheduler.version>
+        <entando-plugin-jpredis.version>6.6.0</entando-plugin-jpredis.version>
+        <entando.keycloak.plugin.version>6.6.1</entando.keycloak.plugin.version>
         <!-- Others.. -->
         <sonar.projectKey>${github.organization}_${project.artifactId}</sonar.projectKey>
         <github.organization>entando-k8s-infrastructure</github.organization>
@@ -182,6 +182,19 @@
                 <groupId>org.entando.entando.plugins</groupId>
                 <artifactId>entando-plugin-jpcontentscheduler</artifactId>
                 <version>${entando-plugin-jpcontentscheduler.version}</version>
+                <type>war</type>
+            </dependency>
+            <!--jpredis-->
+            <dependency>
+                <groupId>org.entando.entando.plugins</groupId>
+                <artifactId>entando-plugin-jpredis</artifactId>
+                <version>${entando-plugin-jpredis.version}</version>
+                <classifier>classes</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.entando.entando.plugins</groupId>
+                <artifactId>entando-plugin-jpredis</artifactId>
+                <version>${entando-plugin-jpredis.version}</version>
                 <type>war</type>
             </dependency>
             <!--keycloak-->
